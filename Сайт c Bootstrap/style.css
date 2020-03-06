@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.centr {
+    padding: 0 calc(50% - 570px);
+}
+
+a:active,
+a:focus {
+    outline: none;
+}
+
+input,
+textarea {
+    outline: none;
+}
+
+input:active,
+textarea:active {
+    outline: none;
+}
+
+:focus {
+    outline: none;
+}
+
+textarea {
+    resize: none;
+}
+
+textarea {
+    resize: vertical;
+}
+
+textarea {
+    resize: horizontal;
+}
+
+.header {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.header h1 {
+    color: #f16d7f;
+    font-size: 46px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.header h2 {
+    color: #f16d7f;
+    font-size: 36px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*
+.navbar {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+*/
+.main {}
+
+.proposition {
+    display: flex;
+    justify-content: center;
+}
