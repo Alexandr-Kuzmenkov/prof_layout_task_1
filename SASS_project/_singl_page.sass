@@ -1,0 +1,228 @@
+
+@import "vars"
+
+
+
+.arrivals
+  height: 148px
+  background-color: #f8f3f4
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  h3
+    color: #f16d7f
+    font-size: 24px
+    font-weight: 900
+    text-transform: uppercase
+  .breadcrumbs a
+    color: #636363
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    a:hover
+      color: #f16d7f
+  .breadcrumbs .activ
+    color: #f16d7f
+    font-size: 14px
+    font-weight: 700
+  .breadcrumbs li
+    display: inline-block
+    li:first-child::before
+      content: ''
+    li::before
+      content: '/'
+      margin-left: 3px
+      margin-right: 3px
+      color: #636363
+
+
+.singl 
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+  &__carousel
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    align-items: center
+    border: 1px solid #eaeaea
+    background-color: #f7f7f7
+    width: 1607px
+    &__control
+      color: #ffffff
+      font-size: 24px
+      background-color: #989494
+      padding: 16px 20px
+      &:hover
+        background-color: #f16d7f
+  &__collec
+    width: 1141px
+    border: 1px solid #eaeaea
+    margin-top: -50px
+    z-index: 10
+    text-align: center
+    background-color: #ffffff
+    padding-top: 73px
+    margin-bottom: 110px
+    h4
+      color: #4d4d4d
+      font-size: 18px
+      font-weight: 900
+      text-transform: uppercase
+      margin-bottom: 60px
+    &__sp
+      color: #f16d7f
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      margin-top: 73px
+      margin-bottom: 14px
+    &__collec .singl__collec_p
+      color: #5e5e5e
+      font-size: 14px
+      font-weight: 300
+      line-height: 24px
+      width: 620px
+      margin-bottom: 25px
+      padding: 0 250px
+    &__collec p
+      color: #b9b9b9
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      margin-bottom: 30px
+    &__sp_left
+      color: #2f2f2f
+      margin-right: 40px
+      margin-left: 6px
+    &__sp_right
+      color: #2f2f2f
+      margin-left: 6px
+  &__collec h3
+    color: #ef5b70
+    font-size: 24px
+    font-weight: 700
+    margin-bottom: 40px
+  &__collec hr
+    width: 642px
+    margin: 0 auto
+    margin-bottom: 63px
+  &__collec form
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: space-between
+    width: 540px
+    margin: 0 auto
+    & form p
+      color: #2f2f2f
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      text-align: left
+    & form select
+      padding: 12px 57px 12px 20px
+      border: 1px solid #eaeaea
+      color: #bcbcbc
+      font-size: 13px
+      font-weight: 400
+      margin-top: 16px
+    & form select:hover
+      box-shadow: 0 0 4px
+    & form input
+      padding: 12px 10px 12px 20px
+      border: 1px solid #eaeaea
+      color: #bcbcbc
+      font-size: 13px
+      font-weight: 400
+      margin-top: 16px
+      width: 110px
+      & input:hover
+        box-shadow: 0 0 4px
+    & form button
+      color: #ef5b70
+      font-size: 16px
+      font-weight: 700
+      padding: 20px 200px 18px 250px
+      border: 1px solid #ef5b70
+      background-color: #ffffff
+      position: relative
+      margin-bottom: 122px
+    & form button:hover
+      box-shadow: 0 0 7px
+    & form button::before
+      content: ""
+      background-image: url(./img/basket_rad.svg)
+      width: 26px
+      height: 24px
+      left: 200px
+      position: absolute
+      top: 14px
+  &__like
+    text-align: center
+    h3
+      color: #4d4d4d
+      font-size: 24px
+      font-weight: 900
+      text-transform: uppercase
+      margin-bottom: 70px
+    &__product
+      display: flex
+      flex-direction: row
+      justify-content: space-between
+      width: 1140px
+      .product
+        width: 261px
+        margin-bottom: 39px
+        text-align: left
+        &:hover
+          box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.16)
+        &__content
+          padding: 16px
+        &__img
+          width: 100%
+        &__name
+          font-size: 13px
+          color: #222222
+          text-transform: uppercase
+        &__price
+          font-size: 16px
+          font-weight: bold
+          color: #f16d7f
+          text-transform: uppercase
+          margin-top: 16px
+
+
+.offer 
+  margin-top: 70px
+  height: 341px
+  background-color: #222224
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: space-around
+  align-items: center
+  & .box
+    width: 310px
+    text-align: center
+    & h4
+      color: #fbfbfb
+      font-size: 20px
+      font-weight: 700
+      letter-spacing: 0.5px
+      margin-top: 30px
+      margin-bottom: 15px
+    & p
+      color: #fbfbfb
+      font-size: 14px
+      font-weight: 300
+      letter-spacing: 0.35px
+
+
+
+
+
+

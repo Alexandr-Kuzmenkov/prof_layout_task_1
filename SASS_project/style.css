@@ -321,7 +321,7 @@ textarea {
   height: 614px;
   background-image: url(./img/fone.jpg);
   background-repeat: no-repeat;
-  background-position: 0px -51px;
+  background-position: 0xp -51px;
   z-index: 1;
 }
 .fullscreen h1 {

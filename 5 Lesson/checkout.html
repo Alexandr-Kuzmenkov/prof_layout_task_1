@@ -47,15 +47,42 @@
                         </div>
                     </div>
                 </details>
-                <label>
-                    <input type="search" placeholder="Search for Item...">
-                </label>
+                <input type="search" placeholder="Search for Item...">
                 <button type="submit"><img src="img/search.png" alt="search"></button>
             </form>
         </div>
         <div class="header__right">
-            <div>
-                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black"></a>
+            <div class="right__basket">
+                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black" class="right__basket_move"></a>
+                <div class="basket__drop">
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto1.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto2.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <h5>TOTAL</h5>
+                        <h5>$500.00</h5>
+                    </div>
+                    <hr>
+                    <a href="checkout.html"><button type="submit" class="drop__button">Checkout</button></a>
+                    <a href="shopping_cart.html"><button type="submit" class="drop__button drop__button_cart">Go to cart</button></a>
+                </div>
             </div>
             <button type="submit">My Account <i class="fas fa-caret-down"></i></button>
         </div>
@@ -110,11 +137,11 @@
                     </div>
                 </div>
             </li>
-            <li class="list__menu"><a href="singl_page.html" class="item__menu">Women</a></li>
-            <li class="list__menu"><a href="checkout.html" class="item__menu">Kids</a></li>
-            <li class="list__menu"><a href="shopping_cart.html" class="item__menu">Accoseriese</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Featured</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Hot Deals</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Women</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Kids</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Accoseriese</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Featured</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Hot Deals</a></li>
         </ul>
     </nav>
     <section class="arrivals centr">
@@ -126,25 +153,83 @@
         </ul>
     </section>
     <main class="checkout centr">
-        <video src="#" controls></video>
+        <form action="#">
+            <details>
+                <summary>
+                    01. Shipping Adress
+                </summary>
+                <div class="checkout__col">
+                    <div class="checkout__summary">
+                        <h5>Check as a guest or register</h5>
+                        <p class="summary__p">Register with us for future convenience</p>
+                        <label for="" class="summary__label"><input type="radio" name="check" class="summary__input">checkout as guest</label>
+                        <label for="" class="summary__label"><input type="radio" name="check" class="summary__input" checked>register</label>
+                        <h5>register and save time!</h5>
+                        <p>Register with us for future convenience</p>
+                        <p><i class="fas fa-angle-double-right"></i> Fast and easy checkout</p>
+                        <p><i class="fas fa-angle-double-right"></i> Easy access to your order history and status</p>
+                        <button type="submit">Continue</button>
+                    </div>
+                    <div class="checkout__summary_right checkout__summary">
+                        <h5>Already registed?</h5>
+                        <p>Please log in below</p>
+                        <label for="">EMAIL ADDRESS <span class="summary_right__span">*</span></label> <input type="email">
+                        <label for="">PASSWORD <span class="summary_right__span">*</span></label> <input type="password">
+                        <p><span class="summary_right__span">* Required Fileds</span></p>
+                        <p><button type="submit">Log in</button><span class="summary_right__p">Forgot Password ?</span></p>
+                    </div>
+                </div>
+
+            </details>
+        </form>
+        <hr>
+        <form action="#">
+            <details>
+                <summary>
+                    02. BILLING INFORMATION
+                </summary>
+                <div class="checkout__col">BILLING INFORMATION</div>
+            </details>
+        </form>
+        <hr>
+        <form action="#">
+            <details>
+                <summary>
+                    03. SHIPPING INFORMATION
+                </summary>
+                <div class="checkout__col">BILLING INFORMATION</div>
+            </details>
+        </form>
+        <hr>
+        <form action="#">
+            <details>
+                <summary>
+                    04. SHIPPING METHOD
+                </summary>
+                <div class="checkout__col">BILLING INFORMATION</div>
+            </details>
+        </form>
+        <hr>
+        <form action="#">
+            <details>
+                <summary>
+                    05. PAYMENT METHOD
+                </summary>
+                <div class="checkout__col">BILLING INFORMATION</div>
+            </details>
+        </form>
+        <hr>
+        <form action="#">
+            <details>
+                <summary>
+                    06. ORDER REVIEW
+                </summary>
+                <div class="checkout__col">BILLING INFORMATION</div>
+            </details>
+        </form>
+        <hr>
     </main>
-    <section class="offer centr">
-        <div class="offer__delivery box">
-            <img src="img/delivery.svg" alt="uality">
-            <h4>Free Delivery</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-        </div>
-        <div class="offer__discount box">
-            <img src="img/sales.svg" alt="sales">
-            <h4>Sales & discounts</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-        </div>
-        <div class="offer__quality box">
-            <img src="img/quality.svg" alt="quality">
-            <h4>Quality assurance</h4>
-            <p>Worldwide delivery on all. Authorit tively morph next-generation innov tion with extensive models.</p>
-        </div>
-    </section>
+
     <section class="opinions centr">
         <div class="opinions_img">
             <div class="opinions__slider centr">

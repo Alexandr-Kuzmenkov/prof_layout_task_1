@@ -1,6 +1,10 @@
 
 
 @import "vars"
+@import "product"
+@import "singl_page"
+@import "checkout"
+@import "shopping_cart"
 
 
 * 
@@ -18,11 +22,6 @@ a
 
 li 
   list-style-type: none
-
-
-.center
-  padding: 0 calc(50% - 570px)
-
 
 a:active,
 a:focus 
@@ -66,6 +65,9 @@ textarea
 
 textarea 
   resize: horizontal
+
+.center
+  padding: 0 calc(50% - 570px)
 
 .type_display
   display: flex
@@ -730,5 +732,3 @@ textarea
       &:focus
         background-color: transparent
         color: #b2b2b2
-
-@import "product"

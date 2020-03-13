@@ -52,8 +52,37 @@
             </form>
         </div>
         <div class="header__right">
-            <div>
-                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black"></a>
+            <div class="right__basket">
+                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black" class="right__basket_move"></a>
+                <div class="basket__drop">
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto1.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto2.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <h5>TOTAL</h5>
+                        <h5>$500.00</h5>
+                    </div>
+                    <hr>
+                    <a href="checkout.html"><button type="submit" class="drop__button">Checkout</button></a>
+                    <a href="shopping_cart.html"><button type="submit" class="drop__button drop__button_cart">Go to cart</button></a>
+                </div>
             </div>
             <button type="submit">My Account <i class="fas fa-caret-down"></i></button>
         </div>
@@ -108,11 +137,11 @@
                     </div>
                 </div>
             </li>
-            <li class="list__menu"><a href="singl_page.html" class="item__menu">Women</a></li>
-            <li class="list__menu"><a href="checkout.html" class="item__menu">Kids</a></li>
-            <li class="list__menu"><a href="shopping_cart.html" class="item__menu">Accoseriese</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Featured</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Hot Deals</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Women</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Kids</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Accoseriese</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Featured</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Hot Deals</a></li>
         </ul>
     </nav>
     <section class="arrivals centr">
@@ -139,7 +168,9 @@
                 <tr class="table__tr">
                     <td class="table__td table__f"><img src="img/table_foto1.jpg" alt="table_foto1">
                         <div class="td__content">
-                            <h4>Mango People T-shirt</h4>
+                            <a href="singl_page.html">
+                                <h4>Mango People T-shirt</h4>
+                            </a>
                             <p>Color: <span>Red</span></p>
                             <p>Size: <span>Xll</span></p>
                         </div>
@@ -156,7 +187,9 @@
                 <tr class="table__tr">
                     <td class="table__td table__f"><img src="img/table_foto2.jpg" alt="table_foto1">
                         <div class="td__content">
-                            <h4>Mango People T-shirt</h4>
+                            <a href="singl_page.html">
+                                <h4>Mango People T-shirt</h4>
+                            </a>
                             <p>Color: <span>Red</span></p>
                             <p>Size: <span>Xll</span></p>
                         </div>
@@ -173,7 +206,9 @@
                 <tr class="table__tr">
                     <td class="table__td table__f"><img src="img/table_foto3.jpg" alt="table_foto1">
                         <div class="td__content">
-                            <h4>Mango People T-shirt</h4>
+                            <a href="singl_page.html">
+                                <h4>Mango People T-shirt</h4>
+                            </a>
                             <p>Color: <span>Red</span></p>
                             <p>Size: <span>Xll</span></p>
                         </div>
@@ -213,7 +248,7 @@
 
             </div>
             <div class="adress__coupon">
-                <h4>coupon  discount</h4>
+                <h4>coupon discount</h4>
                 <p>Enter your coupon code if you have one</p>
                 <form action="name">
                     <label for="name">
@@ -226,7 +261,7 @@
                 <p>Sub total $900</p>
                 <h4>GRAND TOTAL <span>$900</span></h4>
                 <hr>
-                <button>proceed to checkout</button>
+                <a href="checkout.html"><button>proceed to checkout</button></a>
             </div>
         </div>
     </main>

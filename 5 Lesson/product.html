@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Интернет магазин одежды</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400,400i,700,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style/singl_page.css">
+    <link rel="stylesheet" href="style/product.css">
     <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/f2bd89fd42.js" crossorigin="anonymous"></script>
 </head>
@@ -52,8 +52,37 @@
             </form>
         </div>
         <div class="header__right">
-            <div>
-                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black"></a>
+            <div class="right__basket">
+                <a href="index.html"><img src="img/basket_black.svg" alt="basket_black" class="right__basket_move"></a>
+                <div class="basket__drop">
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto1.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <a href="singl_page.html"><img src="img/basket_foto2.jpg" alt="drop" class="drop__img"></a>
+                        <div class="drop__text">
+                            <a href="singl_page.html">
+                                <p>Rebox Zane</p>
+                            </a><br><span>1 x $250</span>
+                        </div>
+                        <a href="#"><i class="fas fa-times-circle"></i></a>
+                    </div>
+                    <hr>
+                    <div class="drop__linea">
+                        <h5>TOTAL</h5>
+                        <h5>$500.00</h5>
+                    </div>
+                    <hr>
+                    <a href="checkout.html"><button type="submit" class="drop__button">Checkout</button></a>
+                    <a href="shopping_cart.html"><button type="submit" class="drop__button drop__button_cart">Go to cart</button></a>
+                </div>
             </div>
             <button type="submit">My Account <i class="fas fa-caret-down"></i></button>
         </div>
@@ -108,11 +137,11 @@
                     </div>
                 </div>
             </li>
-            <li class="list__menu"><a href="singl_page.html" class="item__menu">Women</a></li>
-            <li class="list__menu"><a href="checkout.html" class="item__menu">Kids</a></li>
-            <li class="list__menu"><a href="shopping_cart.html" class="item__menu">Accoseriese</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Featured</a></li>
-            <li class="list__menu"><a href="#" class="item__menu">Hot Deals</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Women</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Kids</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Accoseriese</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Featured</a></li>
+            <li class="list__menu"><a href="product.html" class="item__menu">Hot Deals</a></li>
         </ul>
     </nav>
     <section class="arrivals centr">
@@ -123,72 +152,235 @@
             <li><a href="product.html" class="activ">New Arrivals</a></li>
         </ul>
     </section>
-    <main class="singl">
-        <div class="singl__carousel">
-            <a href="#" class="carousel__control prev"><i class="fas fa-chevron-left"></i></a>
-            <div class="carousel__inner">
-                <img class="carousel_foto" src="./img/carousel_foto1.jpg" alt="carousel_foto1">
+    <main class="belongings centr">
+        <aside class="belongings__category">
+            <details>
+                <summary class="sum1">Category</summary>
+                <ul>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>Hoodies & Sweatshirts</li>
+                    <li>Jackets & Coats</li>
+                    <li>Pants</li>
+                    <li>Polos</li>
+                    <li>Shirts</li>
+                    <li>Shoes</li>
+                    <li>Shorts</li>
+                    <li>Sweaters & Knits</li>
+                    <li>T-Shirts</li>
+                    <li>Tanks</li>
+                </ul>
+            </details>
+            <details>
+                <summary class="sum2">Brand</summary>
+                <ul>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>Hoodies & Sweatshirts</li>
+                    <li>Jackets & Coats</li>
+                    <li>Pants</li>
+                    <li>Polos</li>
+                    <li>Shirts</li>
+                    <li>Shoes</li>
+                    <li>Shorts</li>
+                    <li>Sweaters & Knits</li>
+                    <li>T-Shirts</li>
+                    <li>Tanks</li>
+                </ul>
+            </details>
+            <details>
+                <summary class="sum3">Designer</summary>
+                <ul>
+                    <li>Accessories</li>
+                    <li>Bags</li>
+                    <li>Denim</li>
+                    <li>Hoodies & Sweatshirts</li>
+                    <li>Jackets & Coats</li>
+                    <li>Pants</li>
+                    <li>Polos</li>
+                    <li>Shirts</li>
+                    <li>Shoes</li>
+                    <li>Shorts</li>
+                    <li>Sweaters & Knits</li>
+                    <li>T-Shirts</li>
+                    <li>Tanks</li>
+                </ul>
+            </details>
+
+        </aside>
+        <section class="product_selection">
+            <div class="trending">
+                <h4>Trending now</h4>
+                <button type="submit">Bohemian</button>
+                <p>|</p>
+                <button type="submit">Floral</button>
+                <p>|</p>
+                <button type="submit">Lace</button>
+                <button type="submit">Floral</button>
+                <p>|</p>
+                <button type="submit">Lace</button>
+                <p>|</p>
+                <button type="submit">Bohemian</button>
             </div>
-            <a href="#" class="carousel__control next"><i class="fas fa-chevron-right"></i></a>
-        </div>
-        <div class="singl__collec">
-            <p><span class="collec__sp">WOMEN COLLECTION</span></p>
-            <h4>Moschino Cheap And Chic</h4>
-            <p class="singl__collec_p">Compellingly actualize fully researched processes before proactive outsourcing. Progressively syndicate collaborative architectures before cutting-edge services. Completely visualize parallel core competencies rather than exceptional portals.</p>
-            <p>MATERIAL:<span class="collec__sp_left">COTTON</span>DESIGNER:<span class="collec__sp_right">BINBURHAN</span></p>
-            <h3>$561</h3>
-            <hr>
-            <form action="#" class="collec__form">
-                <p><label for="name1">CHOOSE COLOR</label><br>
-                    <select name="number" id="name1">
-                        <option value="">Red</option>
-                        <option value="">White</option>
-                        <option value="">Black</option>
-                    </select></p>
-                <p><label for="name2">CHOOSE SIZE</label><br>
-                    <select name="number" id="name2">
-                        <option value="">X</option>
-                        <option value="">XL</option>
-                        <option value="">L</option>
-                    </select></p>
-                <p><label for="name3">QUANTITY</label><br>
-                    <input type="number" id="name3" placeholder="2"></p>
-                <button type="submit">Add to Cart</button>
-            </form>
-        </div>
-        <div class="singl__like centr">
-            <h3>you may like also</h3>
-            <div class="like__product">
-                <div class="product">
-                    <a href="#"><img class="product__img" src="img/product_like_1.jpg" alt="photo product"></a>
-                    <div class="product__content">
-                        <a href="#" class="product__name">BLAZE LEGGINGS</a>
-                        <p class="product__price">$52.00</p>
-                    </div>
-                </div>
-                <div class="product">
-                    <a href="#"><img class="product__img" src="img/product_like_2.jpg" alt="photo product"></a>
-                    <div class="product__content">
-                        <a href="#" class="product__name">ALEXA SWEATER</a>
-                        <p class="product__price">$52.00</p>
-                    </div>
-                </div>
-                <div class="product">
-                    <a href="#"><img class="product__img" src="img/product_like_3.jpg" alt="photo product"></a>
-                    <div class="product__content">
-                        <a href="#" class="product__name">AGNES TOP</a>
-                        <p class="product__price">$52.00</p>
-                    </div>
-                </div>
-                <div class="product">
-                    <a href="#"><img class="product__img" src="img/product_like_4.jpg" alt="photo product"></a>
-                    <div class="product__content">
-                        <a href="#" class="product__name">SYLVA SWEATER</a>
-                        <p class="product__price">$52.00</p>
-                    </div>
+            <div class="size">
+                <h4>Size</h4>
+                <form action="trending_size">
+                    <label><input type="checkbox" />XXS</label>
+                    <label><input type="checkbox" />XS</label>
+                    <label><input type="checkbox" />S</label>
+                    <label><input type="checkbox" />M</label>
+                    <label><input type="checkbox" />L</label>
+                    <label><input type="checkbox" />XL</label>
+                    <label><input type="checkbox" />XXL</label>
+                </form>
+            </div>
+            <div class="price">
+                <h4>price</h4>
+                <progress value="90" max="200"></progress>
+                <div class="prise__numb">
+                    <p>$52</p>
+                    <p>$400</p>
                 </div>
             </div>
-        </div>
+            <div class="sort_shou">
+                <p>Sort By</p>
+                <details>
+                    <summary>Name</summary>
+                    <ul>
+                        <li>Bohemian</li>
+                        <li>Floral</li>
+                        <li>Lace</li>
+                        <li>Floral</li>
+                        <li>Lace</li>
+                        <li>Bohemian</li>
+                    </ul>
+                </details>
+                <p>Show</p>
+                <details>
+                    <summary>09</summary>
+                    <ul>
+                        <li>01</li>
+                        <li>02</li>
+                        <li>03</li>
+                        <li>04</li>
+                        <li>05</li>
+                        <li>07</li>
+                        <li>08</li>
+                        <li>09</li>
+                    </ul>
+                </details>
+            </div>
+            <div class="fetured_items">
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_9.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_10.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_3.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_11.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_12.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_13.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_14.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_15.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+                <div class="product">
+                    <a href="singl_page.html"><img class="product__img" src="img/proposal_16.jpg" alt="photo product"></a>
+                    <div class="product__content">
+                        <a href="shopping_cart.html" class="product__name">Mango People T-shirt</a>
+                        <p class="product__price">$52.00</p>
+                    </div>
+                    <a href="shopping_cart.html" class="product__add">Add to Cart</a>
+                    <a href="#" class="product__var"><img src="img/var.svg" alt="var"></a>
+                    <a href="#" class="product__like"><img src="img/like.svg" alt="like"></a>
+                </div>
+
+            </div>
+            <div class="product__nav">
+                <ul class="nav__button">
+                    <li><a href="#"><i class="fas fa-chevron-left"></i></a></li>
+                    <li><a href="#" class="activ">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li class="point">...</li>
+                    <li><a href="#">20</a></li>
+                    <li><a href="#"><i class="fas fa-chevron-right"></i></a></li>
+                </ul>
+                <button type="submit">View All</button>
+            </div>
+        </section>
     </main>
     <section class="offer centr">
         <div class="offer__delivery box">

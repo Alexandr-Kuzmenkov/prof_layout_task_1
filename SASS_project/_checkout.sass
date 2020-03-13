@@ -1,0 +1,129 @@
+
+
+@import "vars"
+
+
+
+
+.arrivals 
+  height: 148px
+  background-color: #f8f3f4
+  display: flex
+  flex-wrap: wrap
+  flex-direction: row
+  justify-content: space-between
+  align-items: center
+  & h3
+    color: #f16d7f
+    font-size: 24px
+    font-weight: 900
+    text-transform: uppercase
+  .breadcrumbs a
+    color: #636363
+    font-size: 14px
+    font-weight: 700
+    text-transform: uppercase
+    &:hover
+      color: #f16d7f
+
+  .breadcrumbs .activ
+    color: #f16d7f
+    font-size: 14px
+    font-weight: 700
+  .breadcrumbs li
+    display: inline-block
+    &:first-child::before
+      content: ''
+    &::before
+      content: '/'
+      margin-left: 3px
+      margin-right: 3px
+      color: #636363
+
+
+.checkout 
+  margin-top: 85px
+  margin-bottom: 93px
+  & hr
+    background-color: #e8e8e8
+    color: #e8e8e8
+    margin-bottom: 30px
+  summary
+    color: #222222
+    font-size: 16px
+    font-weight: 700
+    text-transform: uppercase
+    margin-bottom: 35px
+    &:hover
+      color: #f16d7f
+      cursor: pointer
+    &::-webkit-details-marker
+      display: none
+  &__col
+    display: flex
+    flex-direction: row
+    justify-content: flex-start
+    margin-bottom: 80px
+  &__summary
+    display: flex
+    flex-direction: column
+    margin-right: 260px
+    margin-left: 30px
+    min-width: 270px
+    & h5
+      color: #222222
+      font-size: 13px
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 15px
+    & p
+      color: #b3b2b2
+      font-size: 13px
+      font-weight: 400
+      margin-bottom: 15px
+    & .summary__p
+      margin-bottom: 34px
+    .summary__input
+      margin-right: 15px
+    .summary__label
+      color: #222222
+      font-size: 12px
+      font-weight: 400
+      text-transform: uppercase
+      margin-bottom: 17px
+    & button
+      color: #4a4a4a
+      font-size: 14px
+      font-weight: 700
+      text-transform: uppercase
+      padding: 18px 50px
+      border: 1px solid #eaeaea
+      background-color: #ffffff
+      margin-top: 20px
+      width: 180px
+      margin-right: 30px
+      &:hover
+        background-color: #f5f3f3
+        cursor: pointer
+
+  .checkout__summary_right
+    margin-right: 20px
+    width: 390px
+    & label
+      color: #222222
+      font-size: 12px
+      font-weight: 400
+      line-height: 20px
+      text-transform: uppercase
+      margin-bottom: 12px
+      margin-top: 10px
+    & .summary_right__span
+      color: #ff0d0d
+      margin-top: 20px
+    & input
+      border: 1px solid #eaeaea
+      background-color: #ffffff
+      padding: 10px
+      margin-bottom: 10px
+    .summary_right__p
+      color: #222222

@@ -59,7 +59,7 @@ ______header_____________________________________________
     text-align: center;
 }
 
-.header h1 {
+h1 {
     color: #f16d7f;
     font-size: 46px;
     font-weight: 900;
@@ -68,7 +68,7 @@ ______header_____________________________________________
     margin-bottom: 40px;
 }
 
-.header h2 {
+h2 {
     color: #f16d7f;
     font-size: 36px;
     font-weight: 900;
@@ -77,6 +77,11 @@ ______header_____________________________________________
     margin-bottom: 50px;
 }
 
+.nav-link {
+    font-size: 18px;
+}
+
+/*____nav_______*/
 
 .navbar-nav {
     margin-left: 100px;
@@ -99,7 +104,77 @@ ______header_____________________________________________
     border-bottom: 3px solid #f16d7f;
 }
 
-.proposition {
+/*______________section__________*/
+
+.about {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.media {
     display: flex;
-    justify-content: center;
+    align-items: center;
+}
+
+/*_______main________*/
+
+.card {
+    border: 1px solid #000;
+    box-shadow: 0px 0px 0px #000;
+    transition: all 1.2s;
+}
+
+.card:hover {
+    box-shadow: 0px 2px 5px #000;
+    transform: scale(1.04)
+}
+
+main h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+/*_________galleri_______*/
+
+.galleri {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.galleri__img {
+    margin-bottom: 25px;
+    transition: all 1s;
+}
+
+.galleri__img:hover {
+    transform: scale(1.06);
+}
+
+.contact__box {
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*______footer______*/
+
+.footer {
+    margin-top: 50px;
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.footer p {
+    display: block;
+    color: aliceblue;
+    font-size: 20px;
 }

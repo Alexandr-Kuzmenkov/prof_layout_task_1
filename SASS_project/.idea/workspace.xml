@@ -53,7 +53,7 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,6 +73,11 @@
       <workItem from="1583667867469" duration="1243000" />
       <workItem from="1583672203434" duration="2310000" />
       <workItem from="1583674623674" duration="22947000" />
+      <workItem from="1583993290384" duration="88000" />
+      <workItem from="1583993381956" duration="188000" />
+      <workItem from="1583994805390" duration="2247000" />
+      <workItem from="1584016178475" duration="7888000" />
+      <workItem from="1584089840864" duration="516000" />
     </task>
     <servers />
   </component>
@@ -80,41 +85,68 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Inspections" timestamp="1583759721714">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="275" y="25" key="#File_Watchers" timestamp="1583993527221">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="275" y="25" key="#File_Watchers/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583993527221" />
+    <state x="1918" y="-103" key="#Inspections" timestamp="1584016504259">
+      <screen x="1366" y="-174" width="1920" height="1040" />
+    </state>
+    <state x="393" y="50" key="#Inspections/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1584003595984" />
+    <state x="1918" y="-103" key="#Inspections/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1584016504259" />
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583759721714" />
     <state x="873" y="141" key="#Intentions" timestamp="1583668344140">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="873" y="141" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1583668344140" />
+    <state x="275" y="25" key="#Notifications" timestamp="1583993549157">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="25" key="#Notifications/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583993549157" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583993557538">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583993557538" />
     <state x="731" y="323" width="634" height="685" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583668469690">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="731" y="323" width="634" height="685" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583668469690" />
+    <state x="563" y="118" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1583994995999">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="563" y="118" key="#com.intellij.ide.macro.MacrosDialog/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583994995999" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583674714523">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583674714523" />
-    <state x="594" y="298" key="EditFileWatcherDialog" timestamp="1583673810949">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="423" y="209" key="EditFileWatcherDialog" timestamp="1583995028692">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="423" y="209" key="EditFileWatcherDialog/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583995028692" />
     <state x="594" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583673810949" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583677603379">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="463" y="121" key="FileChooserDialogImpl" timestamp="1583995026890">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="463" y="121" key="FileChooserDialogImpl/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583995026890" />
+    <state x="328" y="18" key="SettingsEditor" timestamp="1583995069047">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="328" y="18" key="SettingsEditor/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583995069047" />
     <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583677603379" />
-    <state x="656" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1583674625250">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="2022" y="170" key="com.intellij.ide.util.TipDialog" timestamp="1584089840910">
+      <screen x="1366" y="-174" width="1920" height="1040" />
     </state>
+    <state x="467" y="241" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1584016179876" />
+    <state x="2022" y="170" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1584089840910" />
     <state x="656" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583674625250" />
     <state x="552" y="179" key="scopes" timestamp="1583680997884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="179" key="scopes/0.0.1920.1040@0.0.1920.1040" timestamp="1583680997884" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583672292043">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="443" y="158" width="479" height="475" key="search.everywhere.popup" timestamp="1583993364310">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
+    <state x="443" y="158" width="479" height="475" key="search.everywhere.popup/0.0.1366.728/1366.-174.1920.1040@0.0.1366.728" timestamp="1583993364310" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583672292043" />
   </component>
 </project>
