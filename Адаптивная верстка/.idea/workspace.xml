@@ -55,6 +55,8 @@
       <workItem from="1584518270974" duration="21104000" />
       <workItem from="1584599409207" duration="17251000" />
       <workItem from="1584692503885" duration="10996000" />
+      <workItem from="1585316217232" duration="71000" />
+      <workItem from="1585316422550" duration="1084000" />
     </task>
     <servers />
   </component>
@@ -62,6 +64,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2024" y="95" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1585316274359">
+      <screen x="1366" y="-174" width="1920" height="1040" />
+    </state>
+    <state x="2024" y="95" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1585316274359" />
     <state x="1955" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584529883583">
       <screen x="1366" y="-174" width="1920" height="1040" />
     </state>
@@ -74,9 +80,9 @@
       <screen x="1366" y="-174" width="1920" height="1040" />
     </state>
     <state x="2100" y="94" key="FileChooserDialogImpl/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1584519424740" />
-    <state x="2027" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1584427763557">
+    <state x="2027" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1585316450877">
       <screen x="1366" y="-174" width="1920" height="1040" />
     </state>
-    <state x="2027" y="164" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1584427763557" />
+    <state x="2027" y="164" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.-174.1920.1040@1366.-174.1920.1040" timestamp="1585316450877" />
   </component>
 </project>
